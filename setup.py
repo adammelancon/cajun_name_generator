@@ -32,6 +32,6 @@ setup(
     name='cajun_name_generator',
     packages=find_packages() + find_packages(where='./cajun_name_generator'),
     url='https://github.com/adammelancon/cajun_name_generator',
-    version='0.1.4',
+    version='0.2.1',
     zip_safe=False,
 )

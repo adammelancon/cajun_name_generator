@@ -23,10 +23,22 @@ Package to generate random Cajun first and last names.
 * Documentation: https://cajun_name_generator.readthedocs.io.
 
 
-Features
+Example
 --------
+::
+from cajun_name_generator import Cajunnames
 
-* TODO
+cng = Cajunnames()
+
+# Prints and returns 3 first names in a list.
+cng.random_first_name(3)
+# Prints and returns 3 last names in a list.
+cng.random_last_name(3)
+# Prints and returns 3 full names in a list.
+cng.random_full_name(3)
+
+
+
 
 Credits
 -------
