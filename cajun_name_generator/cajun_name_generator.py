@@ -3,6 +3,10 @@ import random
 from cajunnamelist import lastnames, firstnames
 
 class CajunNames():
+    '''random_last_name() gives random last name
+       random_first_name() gives random first name
+       random_full_name() gives a random first name
+    '''
     def __init__(self) -> None:
         self.lastnames = lastnames
         self.firstnames = firstnames
