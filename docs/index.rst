@@ -13,7 +13,7 @@ Welcome to Cajun Name Generator's documentation!
 
 Example
 --------
-::
+
 from cajun_name_generator import Cajunnames
 
 cng = Cajunnames()
