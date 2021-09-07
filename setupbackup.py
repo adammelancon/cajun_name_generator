@@ -30,8 +30,8 @@ setup(
     include_package_data=True,
     keywords='cajun_name_generator',
     name='cajun_name_generator',
-    packages=find_packages() + find_packages(where='./cajun_name_generator'),
+    packages=find_packages(include=['cajun_name_generator', 'cajun_name_generator.*',]),
     url='https://github.com/adammelancon/cajun_name_generator',
-    version='0.1.4',
+    version='0.1.2',
     zip_safe=False,
 )
