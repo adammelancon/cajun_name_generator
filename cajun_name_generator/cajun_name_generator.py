@@ -1,6 +1,6 @@
-"""Main module."""
 import random
-from cajunnamelist import lastnames, firstnames
+from cajun_name_generator.cajunnamelist import lastnames, firstnames
+
 
 class Cajunnames():
     '''random_last_name() gives random last name
