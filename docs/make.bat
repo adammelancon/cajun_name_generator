@@ -5,7 +5,7 @@ pushd %~dp0
 REM Command file for Sphinx documentation
 
 
-set SPHINXBUILD="python -m sphinx.cmd.sphinx-build"
+set SPHINXBUILD="python.exe -m sphinx.cmd.sphinx-build"
 
 set SOURCEDIR=.
 set BUILDDIR=_build

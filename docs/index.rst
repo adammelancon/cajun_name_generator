@@ -12,23 +12,19 @@ Welcome to Cajun Name Generator's documentation!
 
 
 Example
---------
+-------- 
+::
 
-from cajun_name_generator import Cajunnames
+    from cajun_name_generator import Cajunnames
 
-cng = Cajunnames()
+    name = Cajunnames()
 
-# Prints and returns 3 first names in a list.
-
-cng.random_first_name(3)
-
-# Prints and returns 3 last names in a list.
-
-cng.random_last_name(3)
-
-# Prints and returns 3 full names in a list.
-
-cng.random_full_name(3)
+    
+    name.random_first_name(3)    # Prints and returns 3 first names in a list.
+    
+    name.random_last_name(3)    # Prints and returns 3 last names in a list.
+    
+    name.random_full_name(3)    # Prints and returns 3 full names in a list.
 
 
 Indices and tables
