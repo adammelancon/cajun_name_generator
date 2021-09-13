@@ -37,3 +37,8 @@ History
 ------------------
 
 * fixed problem with venv again... I think.
+
+0.2.2 (2021-09-13)
+------------------
+
+* Updated documentation example
