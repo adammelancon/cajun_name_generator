@@ -24,7 +24,7 @@ Package to generate random Cajun first and last names.
 
 Example
 -------- 
-::
+.. code-block:: python
 
     from cajun_name_generator import Cajunnames
 
